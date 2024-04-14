@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página 2</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        /* Estilos son idénticos a pagina1.html */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        nav {
+            background-image: url('casino.jpg'); /* Imagen de fondo del menú */
+            background-size: cover;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            background-color: rgba(255, 255, 255, 0.5);
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+        nav a.active {
+            color: red; /* Marcando la página actual en rojo */
+        }
+        .main-content {
+            text-align: center;
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tristan 6-8</h1>
+    </header>
+    <nav>
+        <a href="pagina1.html">Página 1</a>
+        <a href="pagina2.html" class="active">Página 2</a>
+        <a href="pagina3.html">Página 3</a>
+    </nav>
+    <div class="main-content">
+        <h2>Blackjack Avanzado contra 6-8 Mazos</h2>
+        <p>En esta página, vamos a explorar estrategias avanzadas para jugar al blackjack cuando te enfrentas a 6-8 mazos de cartas. Aquí hay algunas técnicas clave:</p>
+        <ul class="text-left">
+            <li>Conteo de cartas: Aprender a contar cartas puede darte una ventaja significativa, especialmente en juegos con múltiples mazos.</li>
+            <li>Estrategia de apuesta: Ajustar tu estrategia de apuestas según la cuenta de cartas puede ayudarte a maximizar tus ganancias y minimizar tus pérdidas.</li>
+            <li>Conocimiento profundo de las reglas: Comprender las reglas específicas del juego y cómo afectan a las probabilidades puede marcar la diferencia en tu éxito.</li>
+        </ul>
+        <!-- Tarjetas (Cards) -->
+        <div class="card-deck mt-4">
+            <div class="card">
+                <img src="imagen4.jpg" class="card-img-top" alt="Imagen 4">
+                <div class="card-body">
+                    <h5 class="card-title">Imagen 4</h5>
+                    <p class="card-text">Representacion de el valor de las cartas en el sistema Hi-Lo.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="imagen5.jpg" class="card-img-top" alt="Imagen 5">
+                <div class="card-body">
+                    <h5 class="card-title">Imagen 5</h5>
+                    <p class="card-text">Hi-Lo, una manera de como las personas cuentan cartas en el casino.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="imagen6.jpg" class="card-img-top" alt="Imagen 6">
+                <div class="card-body">
+                    <h5 class="card-title">Imagen 6</h5>
+                    <p class="card-text">Tabla de estrategia basica contra 6-8 mazos donde el dealer pide en soft 17.</p>
+                </div>
+            </div>
+        </div>
+        <!-- Botón de regreso al inicio con el mismo diseño que la página 1 -->
+        <button onclick="window.location.href='index.html'" class="btn btn-primary mt-3">Regresar al Inicio</button>
+    </div>
+    <!-- Componentes de Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

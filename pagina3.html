@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página 3</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        /* Estilos son idénticos a pagina1.html */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        nav {
+            background-image: url('casino.jpg'); /* Imagen de fondo del menú */
+            background-size: cover;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            background-color: rgba(255, 255, 255, 0.5);
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+        nav a.active {
+            color: red; /* Marcando la página actual en rojo */
+        }
+        .main-content {
+            text-align: justify;
+            margin: 20px;
+        }
+        .main-content p {
+            text-align: justify;
+        }
+        .center-title {
+            text-align: center;
+        }
+        .btn-back {
+            margin-top: 20px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tristan Ludopatia</h1>
+    </header>
+    <nav>
+        <a href="pagina1.html">Página 1</a>
+        <a href="pagina2.html">Página 2</a>
+        <a href="pagina3.html" class="active">Página 3</a>
+    </nav>
+    <div class="main-content">
+        <h2 class="center-title">Cómo evitar la ludopatía</h2>
+        <p>La ludopatía es un trastorno psicológico que afecta a muchas personas que participan en actividades de juego. Aquí hay algunas formas de evitar caer en la ludopatía:</p>
+        <ol>
+            <li>Establece límites: Define cuánto tiempo y dinero estás dispuesto a gastar en el juego y adhiérete a esos límites.</li>
+            <li>Busca apoyo: Si sientes que estás perdiendo el control de tu juego, busca ayuda de amigos, familiares o profesionales.</li>
+            <li>Encuentra actividades alternativas: Busca pasatiempos y actividades que te brinden placer y satisfacción sin recurrir al juego.</li>
+        </ol>
+        <p>Recuerda, la prevención y la conciencia son clave para evitar caer en la trampa de la ludopatía.</p>
+        <p>Además, es importante recordar que el juego responsable implica saber cuándo parar. No te dejes llevar por la emoción del momento y toma decisiones informadas y conscientes.</p>
+        <p>Si te encuentras luchando contra la ludopatía o crees que alguien que conoces podría estar experimentando este problema, no dudes en buscar ayuda. Hay muchas organizaciones y recursos disponibles para brindar apoyo y orientación en este camino hacia la recuperación.</p>
+        <!-- Tarjetas (Cards) -->
+        <div class="card-deck mt-4">
+            <div class="card">
+                <img src="imagen7.jpg" class="card-img-top" alt="Imagen 7">
+                <div class="card-body">
+                    <h5 class="card-title">Imagen 7</h5>
+                    <p class="card-text">Podrias ser tu... o no?.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="imagen8.jpg" class="card-img-top" alt="Imagen 8">
+                <div class="card-body">
+                    <h5 class="card-title">Imagen 8</h5>
+                    <p class="card-text">Podrias ser tu.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="imagen9.png" class="card-img-top" alt="Imagen 9">
+                <div class="card-body">
+                    <h5 class="card-title">Imagen 9</h5>
+                    <p class="card-text">Nunca sabes cuando vas a ganar en grande.</p>
+                </div>
+            </div>
+        </div>
+        <!-- Botón de regreso al inicio con el mismo diseño que la página 2 -->
+        <button onclick="window.location.href='index.html'" class="btn btn-primary btn-back mt-3">Regresar al Inicio</button>
+    </div>
+    <!-- Componentes de Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

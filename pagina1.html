@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página 1</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        /* Estilos son idénticos a pagina1.html */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        nav {
+            background-image: url('casino.jpg'); /* Imagen de fondo del menú */
+            background-size: cover;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            background-color: rgba(255, 255, 255, 0.5);
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+        nav a.active {
+            color: red; /* Marcando la página actual en rojo */
+        }
+        .main-content {
+            text-align: center;
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tristan Blackjack</h1>
+    </header>
+    <nav>
+        <a href="pagina1.html" class="active">Página 1</a>
+        <a href="pagina2.html">Página 2</a>
+        <a href="pagina3.html">Página 3</a>
+    </nav>
+    <div class="main-content">
+        <h2>Reglas Básicas del Blackjack</h2>
+        <p>El blackjack es un juego de cartas que se juega entre el jugador y el crupier. Aquí están algunas de las reglas más básicas:</p>
+        <ul class="text-left">
+            <li>El objetivo es vencer al crupier sin pasar de 21.</li>
+            <li>Las cartas numéricas valen su valor nominal, las cartas de figuras valen 10 y los ases pueden valer 1 u 11, dependiendo de lo que sea más beneficioso.</li>
+            <li>Se reparten dos cartas al jugador y dos al crupier, con una de las cartas del crupier boca arriba.</li>
+            <li>El jugador puede pedir más cartas (hit) para acercarse a 21 o quedarse con lo que tiene (stand).</li>
+            <li>Si el jugador supera 21, pierde automáticamente (busto).</li>
+            <li>El crupier debe seguir reglas específicas para determinar si pide más cartas o no.</li>
+        </ul>
+        <h2>¿Quieres recibir más información?</h2>
+        <p>Complete el siguiente formulario para recibir actualizaciones por correo electrónico:</p>
+        <!-- Formulario de suscripción de Bootstrap -->
+        <form>
+            <div class="form-group">
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingrese su correo electrónico">
+                <small id="emailHelp" class="form-text text-muted">Nunca compartiremos su correo electrónico con nadie más.</small>
+            </div>
+            <button type="submit" class="btn btn-primary">Suscribirse</button>
+        </form>
+        <!-- Tarjetas (Cards) -->
+        <div class="card-deck mt-4">
+            <div class="card">
+                <img src="imagen1.png" class="card-img-top" alt="Imagen 1">
+                <div class="card-body">
+                    <h5 class="card-title">Imagen 1</h5>
+                    <p class="card-text">Un AS y un Rey.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="imagen2.jpg" class="card-img-top" alt="Imagen 2">
+                <div class="card-body">
+                    <h5 class="card-title">Imagen 2</h5>
+                    <p class="card-text">Un AS y un sirviente.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="imagen3.jpg" class="card-img-top" alt="Imagen 3">
+                <div class="card-body">
+                    <h5 class="card-title">Imagen 3</h5>
+                    <p class="card-text">Par de 10s donde los divides, algo que nunca deberías hacer en blackjack y si lo haces toda la mesa te va a odiar.</p>
+                </div>
+            </div>
+        </div>
+        <!-- Botón de regreso al inicio con el mismo diseño que la página 2 -->
+        <button onclick="window.location.href='index.html'" class="btn btn-primary mt-3">Regresar al Inicio</button>
+    </div>
+    <!-- Componentes de Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
